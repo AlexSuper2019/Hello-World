@@ -1,4 +1,7 @@
 # include <iostream>
+#include <algorithm>
+# include <set>
+# include <string>
 
 using namespace std;
 
@@ -11,4 +14,6 @@ int main(){
         cout << "I LOVE C++ !!!" << endl;
     }
     // Made this line in browser, in github
+    set<string> is_set = {"hj", "hi", "jo"};
+    cout << is_set.count("jo");
 }
